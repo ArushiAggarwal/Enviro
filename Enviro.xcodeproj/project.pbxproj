@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0E50EB240BEF5200229CFF /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E50EA240BEF5200229CFF /* ImageClassificationViewController.swift */; };
+		1B0E50ED240BF00700229CFF /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E50EC240BF00700229CFF /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		1B3705EC240BF99F003712D3 /* model-export_icn_core_ml-Recyclable_2-2020-03-01T11_56_55.445Z_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1B3705EB240BF99F003712D3 /* model-export_icn_core_ml-Recyclable_2-2020-03-01T11_56_55.445Z_model.mlmodel */; };
 		1B3AE528240B66870021DE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AE527240B66870021DE95 /* AppDelegate.swift */; };
 		1B3AE52A240B66870021DE95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AE529240B66870021DE95 /* SceneDelegate.swift */; };
 		1B3AE52C240B66870021DE95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AE52B240B66870021DE95 /* ViewController.swift */; };
 		1B3AE52F240B66870021DE95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AE52D240B66870021DE95 /* Main.storyboard */; };
 		1B3AE531240B66940021DE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AE530240B66940021DE95 /* Assets.xcassets */; };
 		1B3AE534240B66940021DE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AE532240B66940021DE95 /* LaunchScreen.storyboard */; };
+		1B3AE53E240B8A4D0021DE95 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AE53D240B8A4D0021DE95 /* Podfile */; };
+		1B3AE540240B9BF10021DE95 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AE53F240B9BF10021DE95 /* Start.swift */; };
+		1B5E19E7240BB92C0039EB92 /* MyGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E19E6240BB92C0039EB92 /* MyGoogle.swift */; };
+		1BC07FFD240BE0CE0097EDE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AE535240B66940021DE95 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0E50DD240BEA1300229CFF /* ClassifyingImagesWithVisionAndCoreML */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ClassifyingImagesWithVisionAndCoreML; sourceTree = "<group>"; };
+		1B0E50EA240BEF5200229CFF /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
+		1B0E50EC240BF00700229CFF /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		1B3705EB240BF99F003712D3 /* model-export_icn_core_ml-Recyclable_2-2020-03-01T11_56_55.445Z_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "model-export_icn_core_ml-Recyclable_2-2020-03-01T11_56_55.445Z_model.mlmodel"; sourceTree = SOURCE_ROOT; };
 		1B3AE524240B66870021DE95 /* Enviro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enviro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B3AE527240B66870021DE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B3AE529240B66870021DE95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,12 @@
 		1B3AE530240B66940021DE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B3AE533240B66940021DE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B3AE535240B66940021DE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3AE53D240B8A4D0021DE95 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1B3AE53F240B9BF10021DE95 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		1B5E19E6240BB92C0039EB92 /* MyGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoogle.swift; sourceTree = "<group>"; };
+		CCEDBDE29C87AE1B1E36403A /* Pods-Enviro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enviro.release.xcconfig"; path = "Target Support Files/Pods-Enviro/Pods-Enviro.release.xcconfig"; sourceTree = "<group>"; };
+		CCFD72D1A2C8A66CD040C10F /* Pods-Enviro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enviro.debug.xcconfig"; path = "Target Support Files/Pods-Enviro/Pods-Enviro.debug.xcconfig"; sourceTree = "<group>"; };
+		DA7FD7D6A1248E745E4F9AD0 /* libPods-Enviro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Enviro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +57,11 @@
 		1B3AE51B240B66860021DE95 = {
 			isa = PBXGroup;
 			children = (
+				1B3AE53D240B8A4D0021DE95 /* Podfile */,
 				1B3AE526240B66870021DE95 /* Enviro */,
+				EDD515BCF12D5DA3C752A9FC /* Pods */,
 				1B3AE525240B66870021DE95 /* Products */,
+				939D32D2F76290C6073B2E3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,38 @@
 		1B3AE526240B66870021DE95 /* Enviro */ = {
 			isa = PBXGroup;
 			children = (
+				1B3705EB240BF99F003712D3 /* model-export_icn_core_ml-Recyclable_2-2020-03-01T11_56_55.445Z_model.mlmodel */,
+				1B0E50DD240BEA1300229CFF /* ClassifyingImagesWithVisionAndCoreML */,
+				1B0E50EC240BF00700229CFF /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				1B0E50EA240BEF5200229CFF /* ImageClassificationViewController.swift */,
 				1B3AE527240B66870021DE95 /* AppDelegate.swift */,
 				1B3AE529240B66870021DE95 /* SceneDelegate.swift */,
 				1B3AE52B240B66870021DE95 /* ViewController.swift */,
+				1B3AE53F240B9BF10021DE95 /* Start.swift */,
+				1B5E19E6240BB92C0039EB92 /* MyGoogle.swift */,
 				1B3AE52D240B66870021DE95 /* Main.storyboard */,
 				1B3AE530240B66940021DE95 /* Assets.xcassets */,
 				1B3AE532240B66940021DE95 /* LaunchScreen.storyboard */,
 				1B3AE535240B66940021DE95 /* Info.plist */,
 			);
 			path = Enviro;
+			sourceTree = "<group>";
+		};
+		939D32D2F76290C6073B2E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA7FD7D6A1248E745E4F9AD0 /* libPods-Enviro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDD515BCF12D5DA3C752A9FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD72D1A2C8A66CD040C10F /* Pods-Enviro.debug.xcconfig */,
+				CCEDBDE29C87AE1B1E36403A /* Pods-Enviro.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B3AE538240B66940021DE95 /* Build configuration list for PBXNativeTarget "Enviro" */;
 			buildPhases = (
+				150631EB88E828C8F68BE63A /* [CP] Check Pods Manifest.lock */,
 				1B3AE520240B66870021DE95 /* Sources */,
 				1B3AE521240B66870021DE95 /* Frameworks */,
 				1B3AE522240B66870021DE95 /* Resources */,
+				707CB769CF7BD9BB4E965A0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,17 +172,66 @@
 			files = (
 				1B3AE534240B66940021DE95 /* LaunchScreen.storyboard in Resources */,
 				1B3AE531240B66940021DE95 /* Assets.xcassets in Resources */,
+				1B3AE53E240B8A4D0021DE95 /* Podfile in Resources */,
+				1BC07FFD240BE0CE0097EDE1 /* Info.plist in Resources */,
 				1B3AE52F240B66870021DE95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		150631EB88E828C8F68BE63A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enviro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707CB769CF7BD9BB4E965A0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enviro/Pods-Enviro-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enviro/Pods-Enviro-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Enviro/Pods-Enviro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B3AE520240B66870021DE95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5E19E7240BB92C0039EB92 /* MyGoogle.swift in Sources */,
+				1B3705EC240BF99F003712D3 /* model-export_icn_core_ml-Recyclable_2-2020-03-01T11_56_55.445Z_model.mlmodel in Sources */,
+				1B3AE540240B9BF10021DE95 /* Start.swift in Sources */,
+				1B0E50ED240BF00700229CFF /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				1B0E50EB240BEF5200229CFF /* ImageClassificationViewController.swift in Sources */,
 				1B3AE52C240B66870021DE95 /* ViewController.swift in Sources */,
 				1B3AE528240B66870021DE95 /* AppDelegate.swift in Sources */,
 				1B3AE52A240B66870021DE95 /* SceneDelegate.swift in Sources */,
@@ -282,13 +376,56 @@
 		};
 		1B3AE539240B66940021DE95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFD72D1A2C8A66CD040C10F /* Pods-Enviro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 629A5SMKV4;
 				INFOPLIST_FILE = Enviro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-v",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Unknown16.Enviro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,13 +436,57 @@
 		};
 		1B3AE53A240B66940021DE95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEDBDE29C87AE1B1E36403A /* Pods-Enviro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 629A5SMKV4;
 				INFOPLIST_FILE = Enviro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/arushia/Library/Developer/Xcode/DerivedData/Enviro-hiptcqguxmrnspfaijnvnccwrjjo/Build/Products/Debug-iphoneos";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-v",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Unknown16.Enviro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
